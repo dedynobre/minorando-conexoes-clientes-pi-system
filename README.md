@@ -35,6 +35,12 @@ Como o primeiro passo foi levantar as conexões e assim fazer o somatório os ev
 
 <img src="https://github.com/dedynobre/monitorando-conexoes-clientes-do-pi-system/blob/master/img2.png" alt="conexoes-clientes" height="300">
 
+Com isso temos como resultado a imagem abaixo:
+
+<img src="https://github.com/dedynobre/monitorando-conexoes-clientes-do-pi-system/blob/master/img3.png" alt="conexoes-clientes" height="300">
+
+
+
 
 
 
