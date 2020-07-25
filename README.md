@@ -23,7 +23,7 @@ Monitorando conexões de ferramentas clientes do PI System
 
 - **Node-Red** - Versão 1.1.0
 - **Grafana** - Versão 7.1.0
-- **PI Server** - Versão 2012
+- **PI Web API** - Versão 2015 R3
 
 ## Desenvolvimento
 
