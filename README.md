@@ -1,6 +1,3 @@
-minorando-conexoes-clientes-pi-system
-
-
 
 <h1 align="center">
 <br>
@@ -16,7 +13,7 @@ Monitorando conexões de ferramentas clientes do PI System
 </p>
 
 <div>
-  <img src="https://github.com/dedynobre/usando-pinotifications-com-telegram/blob/master/media/exec.gif" alt="node-red-telegram" height="300">
+  <img src="https://github.com/dedynobre/monitorando-conexoes-clientes-do-pi-system/blob/master/img1.png" alt="node-red-telegram" height="300">
 </div>
 
 <hr />
