@@ -65,6 +65,58 @@ Logo após criado o arquivo ***.bat*** foi criando uma tarefa agendada do Window
 
 <img src="https://github.com/dedynobre/monitorando-conexoes-clientes-do-pi-system/blob/master/img4.png" alt="conexoes-clientes" height="300">
 
+### extrair as informações e contabilizar conexões
+Foi usando o **node-red** para poder fazer a leitura dos arquivos e fazer a contagem das conexões:
+
+<img src="https://github.com/dedynobre/monitorando-conexoes-clientes-do-pi-system/blob/master/img5.png" alt="conexoes-clientes" height="300">
+
+```javascript
+dados = msg.payload
+d = msg.payload.length
+
+acesso = []
+usuario = []
+
+for(x = 0; x < d; x+=1){
+    
+    dt = dados[x].col1
+    
+    dt1 = dt.indexOf('KINROSSGOLD')
+    
+    if(dt1 > 0){
+        
+        us = dados[x -1].col1
+        us = us.split(' ')
+        us = us[1] + " " + us[2]
+        dt = dt.split('Username : ')
+        dt = dt[1].split('. Method')
+        usuario.push(dt[0])
+        
+        ss = {
+            
+            usuario: dt[0],
+            horario: us
+            
+        } 
+        
+        acesso.push(ss)
+        //usuarios.push(dt[0])
+        
+    }
+
+}
+
+cont = new Set(usuario)
+
+msg.payload = [...cont].length
+msg.topic = acesso
+
+
+
+
+return msg;
+
+
 
 
 
