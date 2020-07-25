@@ -39,6 +39,22 @@ Com isso temos como resultado a imagem abaixo:
 
 <img src="https://github.com/dedynobre/monitorando-conexoes-clientes-do-pi-system/blob/master/img3.png" alt="conexoes-clientes" height="300">
 
+Bom, desta forma conseguimos resolver e quantificar a quantidade de usuários que se conectam nas ferramentas clientes diariamente.
+Mas foi levantado a possibilidade de monitormos, em tempo, real essa quantidade.
+
+Tínhamos pela frente o desafio de como obter estas informações em tempo e onde mostrar isso. Uma coisa já estava definido era que iríamos visualizar estas informações juntamente com o dashboard de monitoramento da estrutura de TI Industrial que já havia sido feita utilizando o Grafana.
+
+Então partimos para o desenvolvimento que foi divido em três partes:
+
+1) obter as informação e salvar em um arquivo em um formato amigável
+2) extrair as informações destes arquivos e contabilizar as conexões
+3) enviar estas informações para o AF para que possa ser visualizado
+
+
+
+
+
+
 
 
 
