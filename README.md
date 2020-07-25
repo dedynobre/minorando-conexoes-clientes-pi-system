@@ -58,6 +58,12 @@ Nesta etapa foi usando o seguinte comando para poder obter as informações e sa
 	> D:\PI\adm\pigetmsg -msg Successful*Procbook.EXE* -st "t" -et "*" > c:\dev\Processbook.csv
 * Datalink:
 	> D:\PI\adm\pigetmsg -msg Successful*EXCEL.EXE* -st "t" -et "*" > c:\dev\DataLink.csv
+	
+Executando esses comando individualmente ele salva os arquivos conforme configurado.
+Agora o passo seria deixar isso sendo executado dinamicamente. Então foi criado um arquivo ***.bat*** para poder executar esse comandos juntos.
+Logo após criado o arquivo ***.bat*** foi criando uma tarefa agendada do Windows que executa esta rotina a cada 5 minutos, conforme imagem abaixo:
+
+<img src="https://github.com/dedynobre/monitorando-conexoes-clientes-do-pi-system/blob/master/img4.png" alt="conexoes-clientes" height="300">
 
 
 
