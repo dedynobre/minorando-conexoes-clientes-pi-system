@@ -27,6 +27,15 @@ Monitorando conexões de ferramentas clientes do PI System
 
 ## Desenvolvimento
 
-A ideia principal era saber quantos usuários diferentes estavam se conectando diariamente no PI System. Como já sabíamos as duas ferramentas mais utilizadas são o ProcessBook e Datalink.
+A ideia principal era saber quantos usuários diferentes estavam se conectando diariamente no PI Server para definição de estratégia de licenciamento.
+Então foi feito levantamento de quantos usuários diferentes estavam se conectando diariamente no PI Server para obter dados usando as ferramentas Datalink e Processbook.
+Como o primeiro passo foi levantar as conexões e assim fazer o somatório os eventos de conexão,esta coleta foi feita a partir da opção abaixo e no campo mensagem com os seguintes filtros:
+Processbook -> Successful*Procbook.EXE* 
+Excel -> Successful*EXCEL.EXE*
+
+<img src="https://github.com/dedynobre/monitorando-conexoes-clientes-do-pi-system/blob/master/img2.png" alt="conexoes-clientes" height="300">
+
+
+
 
 
