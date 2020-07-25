@@ -65,7 +65,7 @@ Logo após criado o arquivo ***.bat*** foi criando uma tarefa agendada do Window
 
 <img src="https://github.com/dedynobre/monitorando-conexoes-clientes-do-pi-system/blob/master/img4.png" alt="conexoes-clientes" height="300">
 
-### extrair as informações e contabilizar conexões
+### extrair as informações e contabilizar conexões e enviar para o AF
 Foi usando o **node-red** para poder fazer a leitura dos arquivos e fazer a contagem das conexões:
 
 <img src="https://github.com/dedynobre/monitorando-conexoes-clientes-do-pi-system/blob/master/img5.png" alt="conexoes-clientes">
@@ -118,4 +118,7 @@ return msg;
 
 ```
 
+Com estas informações no AF Server conseguimos acessar através de qualquer ferramenta cliente:
+
+<img src="https://github.com/dedynobre/monitorando-conexoes-clientes-do-pi-system/blob/master/img6.png" alt="conexoes-clientes">
 
