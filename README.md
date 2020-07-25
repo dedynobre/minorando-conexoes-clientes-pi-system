@@ -52,6 +52,13 @@ Então partimos para o desenvolvimento que foi divido em três partes:
 
 
 
+### Obter informações e salvar em um arquivo
+Nesta etapa foi usando o seguinte comando para poder obter as informações e salvar em um arquivo
+* Processbook:
+	> D:\PI\adm\pigetmsg -msg Successful*Procbook.EXE* -st "t" -et "*" > c:\dev\Processbook.csv
+* Datalink:
+	> D:\PI\adm\pigetmsg -msg Successful*EXCEL.EXE* -st "t" -et "*" > c:\dev\DataLink.csv
+
 
 
 
