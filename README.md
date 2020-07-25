@@ -122,3 +122,20 @@ Com estas informações no AF Server conseguimos acessar através de qualquer fe
 
 <img src="https://github.com/dedynobre/monitorando-conexoes-clientes-do-pi-system/blob/master/img6.png" alt="conexoes-clientes">
 
+No nosso caso foi utilizado o Grafana como ferramenta de visualização:
+
+<img src="https://github.com/dedynobre/monitorando-conexoes-clientes-do-pi-system/blob/master/img7.png" alt="conexoes-clientes">
+
+<img src="https://github.com/dedynobre/monitorando-conexoes-clientes-do-pi-system/blob/master/img1.png" alt="conexoes-clientes">
+
+## Conclusão
+
+Com isso podemos fazer acompanhamento em tempo real da conexões clientes o que ajuda muito na gestão da infraestrutura de TI Industrial.
+
+
+
+## Help
+
+Caso precisem te ajuda ou tenham alguma sugestão, deixe seu comentário [Aqui](https://github.com/dedynobre/monitorando-conexoes-clientes-do-pi-system/issues).
+
+
