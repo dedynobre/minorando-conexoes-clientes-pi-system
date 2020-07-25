@@ -68,7 +68,7 @@ Logo após criado o arquivo ***.bat*** foi criando uma tarefa agendada do Window
 ### extrair as informações e contabilizar conexões
 Foi usando o **node-red** para poder fazer a leitura dos arquivos e fazer a contagem das conexões:
 
-<img src="https://github.com/dedynobre/monitorando-conexoes-clientes-do-pi-system/blob/master/img5.png" alt="conexoes-clientes" height="300">
+<img src="https://github.com/dedynobre/monitorando-conexoes-clientes-do-pi-system/blob/master/img5.png" alt="conexoes-clientes">
 
 ```javascript
 dados = msg.payload
@@ -117,14 +117,5 @@ msg.topic = acesso
 return msg;
 
 ```
-
-
-
-
-
-
-
-
-
 
 
