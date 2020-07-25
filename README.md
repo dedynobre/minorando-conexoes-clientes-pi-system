@@ -13,7 +13,20 @@ Monitorando conexões de ferramentas clientes do PI System
 </p>
 
 <div>
-  <img src="https://github.com/dedynobre/monitorando-conexoes-clientes-do-pi-system/blob/master/img1.png" alt="node-red-telegram" height="300">
+  <img src="https://github.com/dedynobre/monitorando-conexoes-clientes-do-pi-system/blob/master/event.gif" alt="conexoes-clientes" height="300">
 </div>
 
 <hr />
+
+
+## Recursos utilizados
+
+- **Node-Red** - Versão 1.1.0
+- **Grafana** - Versão 7.1.0
+- **PI Server** - Versão 2012
+
+## Desenvolvimento
+
+A ideia principal era saber quantos usuários diferentes estavam se conectando diariamente no PI System. Como já sabíamos as duas ferramentas mais utilizadas são o ProcessBook e Datalink.
+
+
