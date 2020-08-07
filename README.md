@@ -81,7 +81,7 @@ for(x = 0; x < d; x+=1){
     
     dt = dados[x].col1
     
-    dt1 = dt.indexOf('KINROSSGOLD')
+    dt1 = dt.indexOf('DOMINIO')
     
     if(dt1 > 0){
         
